@@ -1,0 +1,17 @@
+meta {
+  name: refresh
+  type: http
+  seq: 6
+}
+
+post {
+  url: 127.0.0.1:8000/api/refresh-token
+  body: json
+  auth: inherit
+}
+
+body:json {
+  {
+    "refreshToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImVsa2lyYTAxQGdtYWlsLmNvbSIsImlhdCI6MTc0NDA1ODc1MiwiZXhwIjoxNzQ0MTQ1MTUyfQ.-Pu_SKJo0ZfQCqo-UWrlzQsFxDtq_W42OsWtu7n-LOQ"
+  }
+}

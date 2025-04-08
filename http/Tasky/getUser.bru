@@ -1,0 +1,19 @@
+meta {
+  name: getUser
+  type: http
+  seq: 5
+}
+
+get {
+  url: 127.0.0.1:8000/api/user/:id
+  body: none
+  auth: inherit
+}
+
+params:path {
+  id: 84b3c241-417f-41b3-9eb7-ef4087f16248
+}
+
+vars:pre-request {
+  : 
+}
